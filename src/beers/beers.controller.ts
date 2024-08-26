@@ -6,6 +6,7 @@ export class BeersController {
     constructor(private readonly appService: BeersService) {}
 
   @Get('hello')
+  
   getHello(): string {
      return this.appService.getHello();
   }
