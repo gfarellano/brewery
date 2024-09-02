@@ -1,6 +1,6 @@
 import {Body, Controller, Get, Post ,Param} from '@nestjs/common';
 import { BeersService } from './beers.service';
-import { CreateBeerDto } from './dto/create-beer.dto/create-beer.dto';
+import { CreateBeerDto } from './dto/create-beer.dto/create-beer.dto';//importante agregar sino no reconoce el Post create
 
 @Controller('beers')
 export class BeersController {
